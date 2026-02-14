@@ -1,6 +1,10 @@
-# Out-of-Order Superscalar MIPS Processor
+# Out-of-Order N-Way Superscalar MIPS Processor
 
-This project implements an out-of-order, superscalar MIPS processor inspired by the MIPS R10K architecture. The design focuses on extracting instruction-level parallelism while managing complexity through deliberate architectural tradeoffs. The processor was developed as part of EECS 470 and emphasizes advanced microarchitectural features, performance analysis, and robust testing.
+This project implements an out-of-order, superscalar MIPS processor with inspiration taken from the MIPS R10K architecture. The design focuses on maximizing instruction-level parallelism while managing complexity through deliberate architectural tradeoffs. This processor was developed as the Capstone project in EECS 470, a Computer Architecture course at the University of Michigan. This project emphasizes advanced microarchitectural features and the importance of performance analysis, and robust testing.
+
+## Source Code Availability
+
+The full codebase for this processor is kept private due to academic integrity requirements. Recruiters and reviewers may request access by contacting me directly at [jcollis.dev@gmail.com](mailto:jcollis.dev@gmail.com)
 
 ## High-Level Architecture
 
@@ -13,6 +17,8 @@ Key components include:
 - Centralized N-way Common Data Bus (CDB)
 - Store queue with load forwarding
 - Branch stack for early branch resolution
+
+![Architecture Overview](diagrams/architecture-overview.png)
 
 ## Advanced Features
 
@@ -45,7 +51,3 @@ The processor was validated using a combination of unit tests and full-system pr
 - `diagrams/` — Microarchitecture diagrams and subsystem designs (ETB, LSQ, memory hierarchy, etc.)
 - `docs/` — Final report, milestone reports, and project specifications
 - `presentations/` — Proposal, milestone, and final presentation slides
-
-## Source Code Availability
-
-The full RTL and simulation code for this processor is kept private due to academic integrity requirements. Recruiters and reviewers may request access by contacting the author directly.
