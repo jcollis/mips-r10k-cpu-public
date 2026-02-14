@@ -18,7 +18,7 @@ Key components include:
 - Store queue with load forwarding
 - Branch stack for early branch resolution
 
-![Architecture Overview](diagrams/architecture-overview.png)
+[![Architecture Overview](diagrams/architecture-overview.png)](diagrams/architecture-overview.pdf)
 
 ## Advanced Features
 
